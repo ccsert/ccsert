@@ -1,37 +1,72 @@
+<p align="center">
+  <img src="assets/hero-signal-system.png" width="100%" alt="Complex signals resolving into a precise system of concentric rings" />
+</p>
+
 <div align="center">
 
-# ccsert
+# CCSERT
 
-**Developer tools · AI-assisted workflows · self-hosted infrastructure**
+### Turning complex signals into reliable systems.
 
-I build practical systems that make complex engineering workflows reliable,
-observable, and easier to operate.
+Developer tools · AI-assisted engineering · self-hosted infrastructure
 
-专注于开发者工具、AI 工程化与自托管基础设施。
+把复杂信号转化为可靠、可验证、可维护的系统。
 
 </div>
 
-## What I work on
+<br />
 
-- **Developer experience** — terminal-first tools and workflows that stay out of the way.
-- **AI-assisted engineering** — useful automation with explicit boundaries and human review.
-- **Software delivery infrastructure** — small, operable systems for artifacts, CI/CD, and Kubernetes.
+## Selected systems
 
-## Selected work
+### 01 / [OpenCode Gitea Review](https://github.com/ccsert/opencode-review-gitea)
 
-| Project | What it does | Built with |
-| --- | --- | --- |
-| [**OpenCode Gitea Review**](https://github.com/ccsert/opencode-review-gitea) | Brings structured, AI-powered pull-request reviews to Gitea and Forgejo through native Actions workflows. | TypeScript · Docker · OpenCode |
-| [**Artifact Gateway**](https://github.com/ccsert/artifact-gateway) | A lightweight, protocol-native repository for verified software artifacts, with PostgreSQL as its control plane and S3-compatible object storage for bytes. | Go · PostgreSQL · React |
-| [**DocBabel**](https://github.com/ccsert/DocBabel) | A self-hosted PDF translation platform with task queues, glossaries, model management, offline assets, and an admin console. | Python · React · PostgreSQL |
-| [**omz-pm**](https://github.com/ccsert/omz-pm) | A safe terminal UI for discovering and managing Oh My Zsh plugins and themes, with a built-in 359-entry Chinese guide. | Rust · Ratatui · Zsh |
+**AI review, inside the forge.** Structured pull-request reviews for Gitea and
+Forgejo, running where the code already lives through native Actions workflows.
 
-## How I build
+<sub>TypeScript · OpenCode · Docker · Gitea Actions</sub>
 
-I care about small operational surfaces, honest release evidence, protocol-native
-integrations, and interfaces that make infrastructure understandable. My work
-usually moves between **Go**, **Rust**, **TypeScript**, **Python**, containers,
-and Kubernetes.
+---
 
-If one of these projects is useful to you, issues, discussions, and pull requests
-are always welcome in the corresponding repository.
+### 02 / [Artifact Gateway](https://github.com/ccsert/artifact-gateway)
+
+**One control plane. Native protocols. Verified bytes.** A lightweight artifact
+repository built around PostgreSQL coordination, S3-compatible storage, and the
+package-manager protocols developers already use.
+
+<sub>Go · PostgreSQL · S3 · React · OCI · Maven · npm · PyPI</sub>
+
+---
+
+### 03 / [DocBabel](https://github.com/ccsert/DocBabel)
+
+**Serious PDF translation, without giving up your data.** A self-hosted workspace
+for translation queues, glossaries, model configuration, offline assets, and
+administration.
+
+<sub>Python · React · PostgreSQL · Redis · Docker</sub>
+
+---
+
+### 04 / [omz-pm](https://github.com/ccsert/omz-pm)
+
+**Oh My Zsh, made discoverable.** A safe terminal interface for exploring and
+managing plugins and themes, backed by a complete 359-entry Chinese usage guide
+and an explicit preview-before-write workflow.
+
+<sub>Rust · Ratatui · Zsh · Terminal UX</sub>
+
+<br />
+
+## The through-line
+
+The projects look different, but the standard is the same: keep the operational
+surface small, integrate at the native protocol boundary, make state visible,
+and never confuse a successful build with a verified release.
+
+`SMALL SURFACES` · `NATIVE PROTOCOLS` · `VISIBLE STATE` · `VERIFIABLE RELEASES`
+
+<br />
+
+<div align="center">
+  <sub>Go · Rust · TypeScript · Python · Containers · Kubernetes</sub>
+</div>
