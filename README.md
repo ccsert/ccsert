@@ -105,8 +105,8 @@ and never confuse a successful build with a verified release.
   <sub>CORE TOOLBOX</sub>
   <br /><br />
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,rust,ts,py,react,docker,postgres,kubernetes,linux&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go,rust,ts,py,react,docker,postgres,kubernetes,linux&theme=light" />
-    <img src="https://skillicons.dev/icons?i=go,rust,ts,py,react,docker,postgres,kubernetes,linux&theme=dark" alt="Go, Rust, TypeScript, Python, React, Docker, PostgreSQL, Kubernetes, and Linux" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go%2Crust%2Cts%2Cpy%2Creact%2Cdocker%2Cpostgres%2Ckubernetes%2Clinux&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go%2Crust%2Cts%2Cpy%2Creact%2Cdocker%2Cpostgres%2Ckubernetes%2Clinux&amp;theme=light" />
+    <img src="https://skillicons.dev/icons?i=go%2Crust%2Cts%2Cpy%2Creact%2Cdocker%2Cpostgres%2Ckubernetes%2Clinux&amp;theme=dark" alt="Go, Rust, TypeScript, Python, React, Docker, PostgreSQL, Kubernetes, and Linux" />
   </picture>
 </div>
